@@ -1,0 +1,45 @@
+# Requirements.txt for Hugging Face Spaces
+# Enhanced Auction Scraper with Web-Based AI Analysis
+
+# === CORE APPLICATION ===
+gradio>=4.0.0
+pandas>=2.0.0
+numpy>=1.21.0
+
+# === WEB SCRAPING ===
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# === AI AND MACHINE LEARNING ===
+# PyTorch (HF Spaces has this pre-installed, but specify for compatibility)
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# Hugging Face integration
+huggingface_hub>=0.16.0
+
+# LlamaIndex for RAG and agent functionality
+llama-index>=0.9.0
+llama-index-core>=0.10.0
+llama-index-llms-huggingface>=0.1.0
+llama-index-embeddings-huggingface>=0.1.0
+
+# Text processing and embeddings
+sentence-transformers>=2.2.0
+
+# Image processing
+Pillow>=10.0.0
+
+# === UTILITIES ===
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# === OPTIONAL PERFORMANCE ===
+# For 8-bit quantization (reduces memory usage)
+bitsandbytes>=0.41.0
+
+# For better HTML parsing
+html5lib>=1.1
+sentencepiece>=0.1.99
